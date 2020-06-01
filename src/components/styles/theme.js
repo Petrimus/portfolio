@@ -1,0 +1,7 @@
+export const theme = {
+DUSTY: '#96858F',
+LAVENDAR: '#6D7993',
+OVERCAST: '#9099A2',
+PAPER: '#D5D5D5',
+LIGHTGRAY: '#B1A296'
+}
