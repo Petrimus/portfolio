@@ -3,15 +3,14 @@ const path = require('path')
 const config = {
   entry: './src/index.js',
   output: {
-    publicPath: '/',
+    /* publicPath: '/', */  
     path: path.resolve(__dirname, 'build'),
     filename: 'main.js'
-  },
+  }, 
   devServer: {
     contentBase: path.resolve(__dirname, 'build'),
     compress: true,
-    port: 3000,
-    historyApiFallback: true
+    port: 3000,   
   },
   devtool: 'source-map',
   module: {

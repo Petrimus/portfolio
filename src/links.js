@@ -43,7 +43,7 @@ export const linksData = [
   },
   {
     name: 'Contacts',
-    url: '#contacts',
+    url: '#contact',
     description: 'My contact information',
     type: 'link',
     checked: true

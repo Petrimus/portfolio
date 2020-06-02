@@ -21,10 +21,16 @@ const App = () => {
   
 
   const projectById = (id) => projects.find(pro => pro.id === Number(id))
-
+  /*
+  const baseUrl = process.env.PUBLIC_URL
+  console.log('baseUrl ', baseUrl)
+ */
+ 
+  console.log('render')  
+  
   return (  
     <ThemeProvider theme={theme}>       
-      <Router basename={ process.env === 'production' ? '/petri.palmu' : '/'} >       
+      <Router  basename='/petri.palmu'>       
         <Route exact path="/" render={() =>
           <Home projects={projects} />}
         />        
@@ -39,3 +45,9 @@ const App = () => {
 }
 
 export default App
+
+/*  
+"/index.html"
+basename={ process.env === 'production' ? '/' : '/'} 
+
+*/
