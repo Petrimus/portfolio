@@ -1,9 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My personal portfolio website
 
-## My personal portfolio of skills website with React
+A website about my skills and links to projects I have done so far. 
 
-Pages are still under construction so at the moment they are not availlable anywhere.
+## Technologies used
 
-### `npm start`
-
-# portfolio
+- React
+- webpack
+- styled-components
+- react-router
+- plain CSS
